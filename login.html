@@ -1,0 +1,81 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <link rel="icon" href="img/logo.png" type="image/png" />
+        <title>Menon & Menon </title>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                       <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+                        	
+
+                        <script src="enjoyhint/enjoyhint.min.js"></script>
+                        <link href="enjoyhint/enjoyhint.css" rel="stylesheet">
+                            <script src="enjoyhint/enjoyhint.min.js"></script>
+                            <link href="enjoyhint/enjoyhint.css" rel="stylesheet">
+                                <!-- Bootstrap -->
+                                <!-- Latest compiled and minified CSS -->
+                                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+                                    <!-- Optional theme -->
+                                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+                                        <!-- Latest compiled and minified JavaScript -->
+                                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("p").click(function(){
+   header("location:HR_home.html");
+  });
+});
+</script>
+                                        <style>
+                                            #gif {
+                                                position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                margin: -50px 0px 0px -50px;
+                                            }
+                                        </style>
+                                        </head>
+                                        <body class="w3-white" style="background:url('img/menon.jpg');background-repeat: no-repeat;
+                                              background-size: cover;height:100vh;">
+                                         <div id='imgLoading' class="w3-overlay" style=''><i id="gif" class="fa fa-spinner w3-spin" style="font-size:64px"></i></div>
+
+                                            <div class="w3-container w3-card-12 w3-col l4 s12 m10 w3-display-middle w3-padding w3-border" style="margin-top:20px;background-color: rgba(0,0,0,0.4)">
+                                                <div class=" w3-padding-8 ">
+                                                    <form class="w3-margin w3-padding w3-text-white" method="post" action="HR_home.html">
+                                                        <h3 class="w3-center">
+                                                            <br><b id="land_page" name="land_page" class="w3-center">Login</b>
+                                                        </h3>
+                                                        <div class="w3-row w3-section">
+                                                            <h4 class="w3-margin-left"><b>Kagal employees prefix token no with 'K'</b></h4>
+                                                            <div class="w3-col w3-text-orange" style="width:50px"><i class="w3-xlarge fa fa-user"></i></div>
+                                                            <div class="w3-rest">
+                                                                <input class="w3-input w3-white" type="text" id="user_name" name="user_name" maxlength="4" placeholder="Token No"  pattern="[A-Za-z0-9]" required autofocus />      
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="w3-row w3-section">
+                                                            <div class="w3-col w3-text-orange" style="width:50px"><i class="w3-xlarge fa fa-asterisk"></i></div>
+                                                            <div class="w3-rest">
+                                                                <input class="w3-input w3-white" type="password" id="password" name="password" placeholder="Password" required/>
+                                                            </div><br>
+															<a href="forgot pass.html" class="w3-text-orange w3-large" style="text-decoration:none;" onclick="tour()"><b>Forgot Password?</b></a>
+                                                        </div>
+                                                        <p class="w3-center">
+                                                            <button id="loginbtn" class="w3-button w3-section w3-orange w3-ripple" type="submit" onclick="window.location.href='HR_home.html'"> Login <i class="fa fa-sign-in"></i> </button><br>
+                    
+                                                        </p>	
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <script src="hint-sequence.js"></script>
+                                        </body>
+                                        </html>
+
+
+

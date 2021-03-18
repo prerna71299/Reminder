@@ -1,0 +1,644 @@
+<html>
+<head>
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.23353" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.setConditions([{"action":[{"field":"28","visibility":"Show"},{"field":"31","visibility":"Show"},{"field":"16","visibility":"Show"},{"field":"35","visibility":"Show"}],"index":"0","link":"Any","priority":"0","terms":[{"field":"34","operator":"equals","value":"YES"}],"type":"field"},{"action":[{"field":"16","visibility":"Show"}],"id":"1406091469860","index":"1","link":"Any","priority":"1","terms":[{"field":"34","operator":"equals","value":"YES"}],"type":"field"}]);
+	JotForm.init(function(){
+      JotForm.description('input_input_21', 'Select Branch');
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("18", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("18", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+if (window.JotForm && JotForm.accessible) $('input_17').setAttribute('tabindex',0);
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("40", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("40", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+ JotForm.displayLocalTime("hour_40", "min_40", "ampm_40", null, true);
+if (window.JotForm && JotForm.accessible) $('input_36').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_42').setAttribute('tabindex',0);
+      JotForm.description('input_42', 'CC AMT= (VISA+MASTERCARD+AMEX+OTHERS)');
+if (window.JotForm && JotForm.accessible) $('input_37').setAttribute('tabindex',0);
+      JotForm.description('input_37', 'DEBIT CARD ONLY');
+if (window.JotForm && JotForm.accessible) $('input_31').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_39').setAttribute('tabindex',0);
+     // JotForm.description('input_39', 'END CASH = TOTAL SALES-(RECON+EXPENSE+CC/DC)');
+	JotForm.newDefaultTheme = false;
+	JotForm.extendsNewTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"hagaClic","qid":"1","text":"DAILY SALES REPORT","type":"control_head"},{"name":"enviar","qid":"2","text":"SUBMIT","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"particularsOf16","qid":"16","text":"PARTICULARS OF DAILY EXPENSE\u002FS","type":"control_matrix"},{"name":"totalDaily","qid":"17","text":"TOTAL DAILY SALES","type":"control_textbox"},{"name":"date","qid":"18","text":"DATE ","type":"control_datetime"},null,null,{"description":"Select Branch","name":"branch","qid":"21","text":"BRANCH","type":"control_dropdown"},null,null,null,null,null,null,null,{"name":"categorySales","qid":"29","text":"CATEGORY SALES","type":"control_matrix"},null,{"name":"totalAmt","qid":"31","text":"TOTAL AMOUNT OF EXPENSE\u002FS","type":"control_textbox"},null,null,{"name":"returns","qid":"34","text":"EXPENSES","type":"control_dropdown"},null,{"name":"reconciliationAmount36","qid":"36","text":"RECONCILIATION AMOUNT","type":"control_textbox"},{"description":"DEBIT CARD ONLY","name":"debitCard37","qid":"37","text":"DEBIT CARD AMOUNT","type":"control_textbox"},null,{"description":"END CASH = TOTAL SALES-(RECON+EXPENSE+CC\u002FDC)","name":"totalEnding","qid":"39","text":"TOTAL ENDING CASH","type":"control_textbox"},{"name":"reconDateamptime","qid":"40","text":"RECON DATE&amp;TIME","type":"control_datetime"},null,{"description":"CC AMT= (VISA+MASTERCARD+AMEX+OTHERS)","name":"creditCard42","qid":"42","text":"CREDIT CARD AMOUNT","type":"control_textbox"},null,{"name":"preparedBy44","qid":"44","text":"PREPARED BY:","type":"control_fullname"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"hagaClic","qid":"1","text":"DAILY SALES REPORT","type":"control_head"},{"name":"enviar","qid":"2","text":"SUBMIT","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"particularsOf16","qid":"16","text":"PARTICULARS OF DAILY EXPENSE\u002FS","type":"control_matrix"},{"name":"totalDaily","qid":"17","text":"TOTAL DAILY SALES","type":"control_textbox"},{"name":"date","qid":"18","text":"DATE ","type":"control_datetime"},null,null,{"description":"Select Branch","name":"branch","qid":"21","text":"BRANCH","type":"control_dropdown"},null,null,null,null,null,null,null,{"name":"categorySales","qid":"29","text":"CATEGORY SALES","type":"control_matrix"},null,{"name":"totalAmt","qid":"31","text":"TOTAL AMOUNT OF EXPENSE\u002FS","type":"control_textbox"},null,null,{"name":"returns","qid":"34","text":"EXPENSES","type":"control_dropdown"},null,{"name":"reconciliationAmount36","qid":"36","text":"RECONCILIATION AMOUNT","type":"control_textbox"},{"description":"DEBIT CARD ONLY","name":"debitCard37","qid":"37","text":"DEBIT CARD AMOUNT","type":"control_textbox"},null,{"description":"END CASH = TOTAL SALES-(RECON+EXPENSE+CC\u002FDC)","name":"totalEnding","qid":"39","text":"TOTAL ENDING CASH","type":"control_textbox"},{"name":"reconDateamptime","qid":"40","text":"RECON DATE&amp;TIME","type":"control_datetime"},null,{"description":"CC AMT= (VISA+MASTERCARD+AMEX+OTHERS)","name":"creditCard42","qid":"42","text":"CREDIT CARD AMOUNT","type":"control_textbox"},null,{"name":"preparedBy44","qid":"44","text":"PREPARED BY:","type":"control_fullname"}]);}, 20); 
+</script>
+<script>
+  function calculatePrice(){
+
+      //Get selected data	  
+      var elt1 =  parseFloat(document.getElementById("input_29_0_2").value);
+      var elt2 = parseFloat(document.getElementById("input_29_1_2").value);
+      var elt3 = parseFloat(document.getElementById("input_29_2_2").value);
+	   var elt4 = parseFloat(document.getElementById("input_29_3_2").value);
+	    var elt5 = parseFloat(document.getElementById("input_29_4_2").value);
+		 var elt6 = parseInt(document.getElementById("input_29_5_2").value);
+		  var elt7 = parseInt(document.getElementById("input_29_6_2").value);
+		  var elt8 = parseInt(document.getElementById("input_29_7_2").value);
+		  var elt9 = parseInt(document.getElementById("input_29_8_2").value);
+		   var elt10 = parseInt(document.getElementById("input_29_9_2").value);
+      //calculate total value  
+      var total1 = elt1+elt2+elt3+elt4+elt5+elt6+elt7+elt8+elt9+elt10;
+	  var total = total1.toString();
+      document.getElementById("totalAmount").value=total;
+ }
+ </script>
+ <script>
+        function enableButton3() {
+            document.getElementById("button3").disabled = false;
+        }
+</script>
+<script>
+    function enableButton5() {
+        document.getElementById("button5").disabled = false;
+    }
+</script>
+<script>
+    function enableButton7() {
+        document.getElementById("button7").disabled = false;
+    }
+</script>
+<script>
+    function enableButton9() {
+        document.getElementById("button9").disabled = false;
+    }
+</script>
+<script>
+    function enableButton11() {
+        document.getElementById("button11").disabled = false;
+    }
+</script>
+ 
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.23353" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.23353" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.23353" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/54be8f18700cc4e0368b4568.css?themeRevisionID=5d7ca1edd72e2373d866fe41"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.23353" />
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:'Coda';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: black;
+    }
+		
+	table tr td:empty {
+  width: 50px;
+}
+  
+table {
+  border-collapse: separate;
+  border-spacing: 300px 0;
+}
+
+td {
+  padding: 10px 0;
+}
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: "Verdana", sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: "Verdana", sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: "Verdana", sans-serif;
+    }
+    .form-header-group {
+      font-family: "Verdana", sans-serif;
+    }
+    .form-label {
+      font-family: "Verdana", sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: inline-block;
+    float: left;
+    text-align: left;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+  
+    .form-all {
+      
+      width: 100%;
+	  background-color:white;
+	 
+    }
+  
+    .form-label.form-label-left,
+    .form-label.form-label-right,
+    .form-label.form-label-left.form-label-auto,
+    .form-label.form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 12pxpx
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 12pxpx
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 12pxpx
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: white;
+    }
+  
+    .form-all {
+      color: black;
+    }
+    .form-header-group .form-header {
+      color: black;
+    }
+    .form-header-group .form-subHeader {
+      color: black;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: black;
+    }
+    .form-sub-label {
+      color: 1a1a25;
+    }
+  
+    .supernova {
+      background-color: undefined;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-dropdown,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: white;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+      .form-all {
+        background-image: url("//www.jotform.com/images/brushed.png");
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: center top;
+      }
+    
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+</style>
+
+
+</head>
+<body>
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-simple_grey.css?3.3.23353"/>
+<form class="form-form"  method="post" name="form1" action="AddFormDb.php">
+  <input type="hidden" name="formID" value="210479343548461" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-defecto">
+          <div class="header-text httal htvam">
+            <h2 id="header_1" class="form-header" data-component="header">
+             <center> EXPENSE CLAIM FORM</center>
+            </h2>
+          </div>
+        </div>
+      </li>
+	  <li class="form-line jf-required" data-type="control_fullname" id="id_44">
+        <label class="form-label form-label-left form-label-auto" id="label_44" for="first_44"> SUBMITTED BY
+		 <span class="form-required">
+            *
+          </span>
+		</label>
+        <div id="cid_44" class="form-input">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_44" name="q44_preparedBy44[first]" class="form-textbox" size="10" value="" data-component="first" aria-labelledby="label_44 sublabel_44_first" />
+              <label class="form-sub-label" for="first_44" id="sublabel_44_first" style="min-height:13px" aria-hidden="false"> First Name </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_44" name="q44_preparedBy44[last]" class="form-textbox" size="15" value="" data-component="last" aria-labelledby="label_44 sublabel_44_last" />
+              <label class="form-sub-label" for="last_44" id="sublabel_44_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
+            </span>
+          </div>
+        </div>
+      </li>
+	  <li class="form-line jf-required" data-type="control_textbox" id="id_39">
+        <label class="form-label form-label-left form-label-auto" id="label_39" for="input_39">
+          TOKEN NO.
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_39" class="form-input jf-required">
+          <input type="text" id="input_39" name="q39_totalEnding" data-type="input-textbox" class="form-textbox validate[required, Currency]" size="20" value="" placeholder=" " data-component="textbox" aria-labelledby="label_39" required="" />
+        </div>
+      </li>
+	  
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_21" style="float:right">
+        <label class="form-label form-label-left form-label-auto" id="label_21" for="input_21">
+         DEPARTMENT
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_21" class="form-input jf-required">
+          <select class="form-dropdown validate[required]" style="width:163px;" id="input_21" name="q21_branch">
+            <option value=""> SELECT  </option>
+            <option value=" Core Shop and Foundary division"> Core Shop and Foundary division </option>
+            <option value="Molding Section"> Molding Section </option>
+            <option value="Furnace"> Furnace </option>
+            <option value="Machine Division"> Machine Division </option>
+            <option value="Machine process Development"> Machine process Development </option>
+            <option value="Foundary development"> Foundary development </option>
+            <option value="Marketing Department"> Marketing Department </option>
+            <option value="Purchase"> Purchase </option>
+			<option value="Quality Management System"> Quality Management System </option>
+			<option value="Quality Assurance"> Quality Assurance </option>
+          </select>
+        </div>
+      </li>
+	  
+      <li class="form-line jf-required" data-type="control_datetime" id="id_18">
+        <label class="form-label form-label-left form-label-auto" id="label_18" for="month_18">
+          DATE
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_18" class="form-input jf-required">
+          <div data-wrapper-react="true" class="extended notLiteMode">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[required, limitDate]" id="month_18" name="q18_date[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_18 sublabel_18_month" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="month_18" id="sublabel_18_month" style="min-height:13px" aria-hidden="false"> Month </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[required, limitDate]" id="day_18" name="q18_date[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_18 sublabel_18_day" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="day_18" id="sublabel_18_day" style="min-height:13px" aria-hidden="false"> Day </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[required, limitDate]" id="year_18" name="q18_date[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="" required="" autoComplete="off" aria-labelledby="label_18 sublabel_18_year" />
+              <label class="form-sub-label" for="year_18" id="sublabel_18_year" style="min-height:13px" aria-hidden="false"> Year </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <img class="showAutoCalendar newDefaultTheme-dateIcon icon-seperatedMode" alt="Pick a Date" id="input_18_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v1" />
+              <label class="form-sub-label" for="input_18_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="true"> Date Picker Icon </label>
+            </span>
+          </div>
+        </div>
+      </li>
+     
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_matrix" id="id_16">
+        <label class="form-label form-label-top" id="label_16" for="input_16">
+          PARTICULARS OF DAILY EXPENSE/S
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_16" class="form-input-wide jf-required">
+          
+        </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textbox" id="id_31">
+        <label class="form-label form-label-left form-label-auto" id="label_31" for="input_31">
+          TOTAL AMOUNT OF EXPENSE/S
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_31" class="form-input jf-required">
+          <input type="text" id="input_31" name="q31_totalAmt" data-type="input-textbox" class="form-textbox validate[required, Currency]" value="" placeholder=" " data-component="textbox" aria-labelledby="label_31" required="" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_matrix" id="id_29">
+        <label class="form-label form-label-top" id="label_29" for="input_29">
+          CATEGORY SALES
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_29" class="form-input-wide jf-required">
+          <table summary="" role="presentation" cellPadding="4" cellSpacing="10" class="form-matrix-table" data-component="matrix">
+            <tr class="form-matrix-tr form-matrix-header-tr">
+              <th class="form-matrix-th" style="border:none">
+                 
+              </th>
+              <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_0" style="width:600px">
+                <label id="label_29_col_0"> PARTICULARS </label>
+              </th>
+              <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_1" style="width:350px">
+                <label id="label_29_col_1"> QUANTITY </label>
+              </th>
+			  <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_1" style="width:350px">
+                <label id="label_29_col_1"> AMOUNT</label>
+              </th>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_0">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers" style="width:100px;text-align:center;">
+                 <label id="label_29_row_2"> 1. </label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_0_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[0][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_0_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[0][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="text" value="" onBlur="calculatePrice()" id="input_29_0_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[0][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_1">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_1"> 2. </label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_1_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[1][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_1_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[1][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="text" onBlur="calculatePrice()" id="input_29_1_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[1][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_2">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_2"> 3.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_2_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[2][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_2_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[2][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_2_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[2][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_3">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_3"> 4.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_3_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[3][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_3_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[3][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_3_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[3][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_4">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_4"> 5.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_4_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[4][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_4_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[4][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_4_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[4][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_5">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_5">6.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_5_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[5][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_5_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[5][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" id="input_29_5_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[5][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_6">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_6">7.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_6_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[6][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_6_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[6][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_6_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[6][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_7">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_7">8.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_7_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[7][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_7_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[7][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_7_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[7][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_8">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_8">9.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_8_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[8][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+              <td class="form-matrix-values">
+                <input type="number" id="input_29_8_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[8][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_8_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[8][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_29 label_29_row_9">
+              <th scope="row" class="form-matrix-headers form-matrix-row-headers"style="width:100px;text-align:center;">
+                <label id="label_29_row_9">10.</label>
+              </th>
+              <td class="form-matrix-values">
+                <input type="text" id="input_29_9_0" class="form-text-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[9][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_0" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" id="input_29_9_1" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[9][]" style="width:100%;box-sizing:border-box" size="5" value="" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+			  <td class="form-matrix-values">
+                <input type="number" onBlur="calculatePrice()" id="input_29_9_2" class="form-number-input form-textbox validate[required, requireOneAnswer]" name="q29_categorySales[9][]" style="width:100%;box-sizing:border-box" size="5" value="0" aria-labelledby="label_29_col_1" step="any" />
+              </td>
+            </tr>
+            
+            
+         </table><br><br><br>
+         <input type="checkbox" id="chebx1" name="chebx1" value="chebx1">
+         <label for="chebx1"> Neccessary bill(s) is / are enclosed herewith.</label><br><br><br>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_39">
+        <label class="form-label form-label-left form-label-auto" id="label_39" for="input_39">
+          TOTAL AMOUNT
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_39" class="form-input jf-required">
+          <input type="number" id="totalAmount" name="q39_totalEnding" data-type="input-textbox" class="form-textbox validate[required, Currency]" size="20" value="" placeholder=" " data-component="textbox" aria-labelledby="label_39" />
+        </div>
+      </li>
+      
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+            <button id="submit" name="submit" type="submit" class="form-submit-button form-submit-button-simple_grey submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              SUBMIT
+            </button>
+            <span>
+               
+            </span>
+            <button id="input_reset_2" type="reset" class="form-submit-reset form-submit-button-simple_grey jf-form-buttons" data-component="button">
+              Clear Form
+            </button>
+            <span>
+               
+            <!--</span>
+            <button id="input_print_2" type="button" class="form-submit-print form-submit-button-simple_grey jf-form-buttons" data-component="button">
+              <img src="https://cdn.jotfor.ms/images/printer.png" style="vertical-align:middle" />
+              <span id="span_print_2" class="span_print">
+                Print Form
+              </span>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+	  <li>
+	  <div>
+	  <form name="pendingrequest" id="pendingrequest" action="" method="POST" >-->
+   <table >
+       <tr>
+           <th>Department Head</th>
+           <th>Sanctioned By</th>
+       </tr>
+    <tr>
+	 <td><input type="button" id="button3" value="Approve" onclick="enableButton5()"  />
+     <input type="button" id="button4" value="Deny"/></td>
+     <td><input type="button" id="button5" value="Approve" onclick="enableButton7()" disabled  />
+        <input type="button" id="button6" value="Deny"/></td>
+    </tr>
+    
+   </table> 
+   <p style="text-align:center">For Accounts Section Only</p>
+   <table >
+    <tr>
+        <th>Checked By</th>
+        <th>Recommended By</th>
+        <th>Passed for Payment By</th>
+    </tr>
+ <tr>
+  <td><input type="button" id="button7" value="Approve" onclick="enableButton9()" disabled />
+  <input type="button" id="button8" value="Deny"/></td>
+  <td><input type="button" id="button9" value="Approve" onclick="enableButton11()" disabled  />
+  <input type="button" id="button10" value="Deny"/></td>
+  <td><input type="button" id="button11" value="Approve"  disabled  />
+     <input type="button" id="button12" value="Deny"/></td>
+ </tr>
+ 
+</table> 
+  </form>
+	  </div>
+	  </li>
+    </ul>
+  </div>
+</form>
+</body>
+</html>
